@@ -1,0 +1,13 @@
+if(attackhand)
+ iconstate = deploy
+  density = 1
+
+icon = 'DeplyBar.dmi'
+
+//might not work
+ void onstart{
+ density = 0
+ }
+var/health = 100
+
+//missing a bit of code due to accidently deleting the file :3
